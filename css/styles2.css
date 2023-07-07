@@ -1,0 +1,53 @@
+/* CSS Custom */
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+#foto-profil {
+  border: 1px solid white;
+}
+
+.navbar {
+  z-index: 999;
+}
+
+#header {
+  overflow-y: hidden;
+}
+
+.animasi-muncul {
+  transition: all 0.2s ease-in;
+}
+
+i {
+  font-size: 50px;
+  padding: 20px;
+  margin: 0 60px;
+}
+
+.edu-list li {
+  font-size: 20px;
+  list-style: none;
+}
+
+#skills-set img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+}
+
+#skills-set img:hover {
+  transition: all 0.3s ease;
+  transform: translate(0, -20px);
+}
+
+.contact-list ul li {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list ul li a {
+  padding: 0;
+}
